@@ -64,7 +64,7 @@
                 console.log(data);
                 //$("#wall_text").html(data.response[1].text);
                 for (var j=1; j<=10; j++) {
-                    var dv=$('<div></div>")
+                    var dv=$("<div></div>")
                             dv.html(data.response[j].text);
                     $("#wall_text").append(dv);
                 }
